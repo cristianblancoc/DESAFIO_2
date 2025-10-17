@@ -4,6 +4,6 @@ using namespace std;
 
 int main()
 {
-    cout << "rld!" << endl;
+    cout << "rldss!" << endl;
     return 0;
 }
