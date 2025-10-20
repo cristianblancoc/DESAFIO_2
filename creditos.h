@@ -1,5 +1,6 @@
 #ifndef CREDITOS_H
 #define CREDITOS_H
+using namespace std;
 
 class Creditos
 {

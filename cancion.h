@@ -1,5 +1,6 @@
 #ifndef CANCION_H
 #define CANCION_H
+using namespace std;
 
 class Cancion
 {

@@ -1,5 +1,6 @@
 #ifndef REPRODUCION_H
 #define REPRODUCION_H
+using namespace std;
 
 class Reproducion
 {
