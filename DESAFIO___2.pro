@@ -12,8 +12,7 @@ SOURCES += \
         main.cpp \
         menu.cpp \
         reproducion.cpp \
-        usuario.cpp \
-        usuariopremiun.cpp
+        usuario.cpp
 
 HEADERS += \
     album.h \
@@ -23,5 +22,4 @@ HEADERS += \
     creditos.h \
     menu.h \
     reproducion.h \
-    usuario.h \
-    usuariopremiun.h
+    usuario.h
