@@ -10,7 +10,7 @@ CancionFavorita::CancionFavorita(string nombre, string art) {
 void CancionFavorita::guardarEnArchivo() {
     ofstream archivo("favoritos.txt", ios::app);
     if (archivo.is_open()) {
-        archivo << "Cancion: " << nombreCancion << " - Artista: " << artista << endl;
+        archivo << "Cancion: " << nombreCancion << "  Artista: " << artista << endl;
         archivo.close();
         cout << " Canción guardada en favoritos." << endl;
     } else {

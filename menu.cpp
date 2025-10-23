@@ -15,9 +15,9 @@ void Menu::mostrarmenunormal(string usuarionormal)
     cout << "3. pausar musica  "<<endl;
     cin>>opcion;
     if (opcion == 1)
-        cout << " Escogiendo música..." << endl;
+        cout << " Escogiendo musica..." << endl;
     else if (opcion == 2)
-        cout << " Pasando a la siguiente canción..." << endl;
+        cout << " Pasando a la siguiente cancion..." << endl;
     else if (opcion == 3)
         cout << " Música en pausa." << endl;
     else
@@ -27,14 +27,14 @@ void Menu::mostrarmenunormal(string usuarionormal)
 void Menu::mostrarmenupremiun(string usuariopremiun)
 {
     int opcion;
-    cout << "Bienvenido, " << usuariopremium << endl;
+    cout << "Bienvenido, " << usuariopremiun << endl;
     cout << "_____MENU PREMIUM_____" << endl;
-    cout << "1. Escoger música" << endl;
-    cout << "2. Pasar música" << endl;
-    cout << "3. Pausar música" << endl;
+    cout << "1. Escoger musica" << endl;
+    cout << "2. Pasar musica" << endl;
+    cout << "3. Pausar musica" << endl;
     cout << "4. Agregar a favoritos" << endl;
     cout << "5. Quitar de favoritos" << endl;
-    cout << "Ingrese una opción: ";
+    cout << "Ingrese una opcion: ";
     cin >> opcion;
 
     if (opcion == 1)
@@ -45,7 +45,8 @@ void Menu::mostrarmenupremiun(string usuariopremiun)
         cout << " Música en pausa." << endl;
     else if (opcion == 4){
         string nombre, artista;
-        cout << "Ingrese el nombre de la canción: ";
+         cin.ignore();
+        cout << "Ingrese el nombre de la canción: "<<endl;
         getline(cin, nombre);
         cout << "Ingrese el artista: ";
         getline(cin, artista);
@@ -57,7 +58,8 @@ void Menu::mostrarmenupremiun(string usuariopremiun)
     }
     else if (opcion == 5){
         string nombre, artista;
-    cout << "Ingrese el nombre de la canción que desea eliminar: ";
+         cin.ignore();
+     cout << "Ingrese el nombre de la canción que desea eliminar: "<<endl;;
     getline(cin, nombre);
     cout << "Ingrese el artista: ";
     getline(cin, artista);
